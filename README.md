@@ -37,6 +37,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+[Streamlit Link:](https://streamlit.io/playground)
+
 The app will open in your browser at `http://localhost:8501`.
 
 ---
