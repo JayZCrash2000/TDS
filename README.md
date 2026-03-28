@@ -1,14 +1,46 @@
-import streamlit as st
+[README.md](https://github.com/user-attachments/files/26326087/README.md)
+# Largest Number Finder — Streamlit App
 
-def find_largest(num1,num2,num3):
-  return max(num1, num2, num3)
+A simple interactive web app built with Streamlit that takes three numbers as input and returns the largest among them.
 
-st.title('Find the Largest Number')
+---
 
-num1 = st.number_input('Enter first number', value=0.0)
-num2 = st.number_input('Enter second number', value=0.0)
-num3 = st.number_input('Enter third number', value=0.0)
+## Demo
 
-if st.button('Find Largest'):
-  largest = find_largest(num1, num2, num3)
-  st.success(f'The largest number is: {largest}')
+Enter any three numbers in the input fields and click "Find Largest" to see the result instantly.
+
+---
+
+## Tech Stack
+
+- **Python**
+- **Streamlit**
+
+---
+
+## Project Structure
+
+```
+streamlit-largest-number/
+│
+├── app.py              # Main application
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The app will open in your browser at `http://localhost:8501`.
+
+---
+
+## Author
+
+**Jeet Kumar** — [GitHub](https://github.com/JayZCrash2000) | [LinkedIn](https://www.linkedin.com/in/jeet-kumar-a912aa219/)
